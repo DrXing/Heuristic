@@ -1,0 +1,170 @@
+[
+    {
+        "rule_id": "R1",
+        "rule_name": "Full control on robot's motion",
+        "description": "full control on the robot\u2019s motion;",
+        "source_page": 1
+    },
+    {
+        "rule_id": "R2",
+        "rule_name": "Full control on robot's functional states",
+        "description": "full control on the robot\u2019s functional states.",
+        "source_page": 1
+    },
+    {
+        "rule_id": "Norman_P1",
+        "rule_name": "Simplify task structure",
+        "description": "simplifying the structure of tasks",
+        "source_page": 2
+    },
+    {
+        "rule_id": "Norman_P2",
+        "rule_name": "Make options visible",
+        "description": "making options visible",
+        "source_page": 2
+    },
+    {
+        "rule_id": "Norman_P3",
+        "rule_name": "Get mapping right",
+        "description": "getting the mapping right",
+        "source_page": 2
+    },
+    {
+        "rule_id": "Norman_P4",
+        "rule_name": "Exploit constraints",
+        "description": "exploiting the power of constraints",
+        "source_page": 2
+    },
+    {
+        "rule_id": "Norman_P5",
+        "rule_name": "Design for error",
+        "description": "designing for error",
+        "source_page": 2
+    },
+    {
+        "rule_id": "Norman_P6",
+        "rule_name": "Make affordances explicit",
+        "description": "making affordances explicit",
+        "source_page": 2
+    },
+    {
+        "rule_id": "G1",
+        "rule_name": "Minimize options",
+        "description": "minimising the number of options involved in the inter-action, to reduce the user\u2019s response times and errors, as suggested also by the Hyck Hyman law [19]",
+        "source_page": 2
+    },
+    {
+        "rule_id": "G2",
+        "rule_name": "Avoid short-term memory overload",
+        "description": "avoiding the overload of the user\u2019s short-term memory, i.e., limiting the number of signi\ufb01cant items (e.g., digits, letters, gestures) that must be remembered [20]",
+        "source_page": 2
+    },
+    {
+        "rule_id": "G3",
+        "rule_name": "Provide explicit hints and feedback",
+        "description": "providing explicit hints to possible actions, guidelines on how to perform them and direct feedback on user\u2019s performance, to enforce learnability [21]",
+        "source_page": 2
+    },
+    {
+        "rule_id": "G4",
+        "rule_name": "Refer to real-world contexts",
+        "description": "referring to actions used in well-known real-world con-texts, to reduce the learning curve [22]",
+        "source_page": 2
+    },
+    {
+        "rule_id": "G5",
+        "rule_name": "Avoid driver distraction",
+        "description": "the system should be designed so as to avoid distracting or visually entertaining the driver",
+        "source_page": 2
+    },
+    {
+        "rule_id": "G6",
+        "rule_name": "Non-obstruction of Driver's View",
+        "description": "no part of the system should obstruct the driver\u2019s view.",
+        "source_page": 3
+    },
+    {
+        "rule_id": "G1",
+        "rule_name": "Minimality of Options",
+        "description": "minimises the number of options available for each control variable",
+        "source_page": 3
+    },
+    {
+        "rule_id": "G2",
+        "rule_name": "Avoid Overloading Short-Term Memory",
+        "description": "without overloading the user\u2019s short term memory",
+        "source_page": 3
+    },
+    {
+        "rule_id": "G4",
+        "rule_name": "Real-world Gesture Resemblance",
+        "description": "The design principle conceptualised in G4 suggests the use of gestures resembling actions performed in a real-world context.",
+        "source_page": 3
+    },
+    {
+        "rule_id": "H_ErrorPreventionCritical",
+        "rule_name": "Prevention of Accidental Critical Commands through Voluntary Actions",
+        "description": "Secondary tasks comprise the ones devoted to minimising the chances of accidentally issuing driving commands, by enabling and disabling them in accordance with the functional state of the vehicle and forcing the driver to perform voluntary actions to move from one state to another.",
+        "source_page": 4
+    },
+    {
+        "rule_id": "H_MimicMoveGesture",
+        "rule_name": "Mimicry of Real-World Action for 'Move' State Transition",
+        "description": "This gesture mimics the action of releasing the handbrake, i.e., the secondary command enabling the primary driving commands.",
+        "source_page": 4
+    },
+    {
+        "rule_id": "H_MimicStopGesture",
+        "rule_name": "Mimicry of Real-World Action for 'Stop' State Transition",
+        "description": "This gesture mimics the action of pressing the start/stop button of a car, i.e., the secondary command which turns off the engine.",
+        "source_page": 4
+    },
+    {
+        "rule_id": "H_FeedbackMoveGesture",
+        "rule_name": "Proprioceptive and Visual Feedback for 'Move' Gesture Learnability",
+        "description": "In our case, the user learns the association between the action and its effects in terms of proprioception and delayed visual feed-back, since a correct execution of the gesture makes the robot move in response to a continuous gesture.",
+        "source_page": 4
+    },
+    {
+        "rule_id": "H_FeedbackStopGesture",
+        "rule_name": "Proprioceptive and Visual Feedback for 'Stop' Gesture Learnability",
+        "description": "The association between the action and its effects is given in terms of proprioception and visual feedback, i.e., a correct execution of the gesture makes the robot stop.",
+        "source_page": 4
+    },
+    {
+        "rule_id": "MinimizeOverallResponseTime",
+        "rule_name": "Minimize Overall Response Time for Usability",
+        "description": "Minimising the overall response time of a human-robot interaction interface is a key enabling factor for its usability.",
+        "source_page": 5
+    },
+    {
+        "rule_id": "BoundRecognitionModuleDelay",
+        "rule_name": "Bound Recognition Module Delay for User Experience",
+        "description": "Although the delay \u03b4r introduced by the recognition module does not affect the moving state, as described in (5), it is convenient to keep it bounded to enhance user\u2019s experience.",
+        "source_page": 5
+    },
+    {
+        "rule_id": "H1",
+        "rule_name": "Naturalness and Comfort of Gestures",
+        "description": "An interface's gestures should be natural and comfortable to use.",
+        "source_page": 6
+    },
+    {
+        "rule_id": "H2",
+        "rule_name": "Usefulness of the Application",
+        "description": "The application should be useful.",
+        "source_page": 6
+    },
+    {
+        "rule_id": "H3",
+        "rule_name": "Memorability and Learnability of Gestures",
+        "description": "The gestures within the interface should be easy to understand, learn, and remember.",
+        "source_page": 6
+    },
+    {
+        "rule_id": "H4",
+        "rule_name": "Ease of Use of the System",
+        "description": "The system should be easy to use.",
+        "source_page": 6
+    }
+]
